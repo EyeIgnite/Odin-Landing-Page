@@ -43,7 +43,8 @@ li,
 button,
 a,
 .subtext,
-.call-text {
+.call-text,
+.copy {
   color: #e5e7eb;
 }
 
@@ -91,4 +92,8 @@ sub {
 
 .call-to-action {
   background-color: #3882f6;
+}
+
+.footer {
+  background-color: #1f2937;
 }
