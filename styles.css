@@ -11,6 +11,7 @@ body {
 
 .navbar {
   background-color: #1f2937;
+  min-height: 250px;
 }
 
 .logo,
@@ -96,4 +97,14 @@ sub {
 
 .footer {
   background-color: #1f2937;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
 }
