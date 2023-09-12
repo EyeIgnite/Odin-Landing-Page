@@ -23,14 +23,12 @@ body {
   font-weight: 600;
 }
 
-  
-
-ul a {
+a {
   text-decoration: none;
 }
 
 li,
-p {
+.subtext {
   font-size: 18px;
   list-style: none;
 }
@@ -69,12 +67,8 @@ button {
   border-radius: 10%;
 }
 
-.quote {
+.inspire-quote {
   background-color: #e5e7eb;
-}
-
-.information {
-  display: flex;
 }
 
 .container2 {
