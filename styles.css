@@ -14,7 +14,8 @@ body {
 }
 
 .logo,
-.title {
+.title,
+.call {
   color: #f9faf8;
 }
 
@@ -40,8 +41,9 @@ li,
 }
 
 button,
+a,
 .subtext,
-a {
+.call-text {
   color: #e5e7eb;
 }
 
@@ -73,10 +75,20 @@ button {
 }
 
 .quote {
-  font-size: 36px italic;
+  font-size: 36px;
+  font-style: italic;
   color: #1f2937;
+}
+
+sub {
+  font-weight: bolder;
+  font-size: 15px
 }
 
 .container2 {
   display: flex;
+}
+
+.call-to-action {
+  background-color: #3882f6;
 }
