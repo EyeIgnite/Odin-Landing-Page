@@ -30,7 +30,7 @@ ul a {
 }
 
 li,
-.container-content p {
+p {
   font-size: 18px;
   list-style: none;
 }
@@ -54,6 +54,10 @@ button {
   background-color: #3882f6;
 }
 
+.call-button {
+  border: 1px solid white;
+}
+
 .info-header {
   font-size: 36px;
   font-weight: bolder;
@@ -63,4 +67,16 @@ button {
 .container2 img {
   border: 2px solid #3882f6;
   border-radius: 10%;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.information {
+  display: flex;
+}
+
+.container2 {
+  display: flex;
 }
