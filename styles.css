@@ -28,7 +28,8 @@ a {
 }
 
 li,
-.subtext {
+.subtext,
+.image-subtext {
   font-size: 18px;
   list-style: none;
 }
@@ -39,7 +40,7 @@ li,
 }
 
 button,
-.container-content,
+.subtext,
 a {
   color: #e5e7eb;
 }
@@ -69,6 +70,11 @@ button {
 
 .inspire-quote {
   background-color: #e5e7eb;
+}
+
+.quote {
+  font-size: 36px italic;
+  color: #1f2937;
 }
 
 .container2 {
