@@ -1,21 +1,25 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   height: 100vh;
   line-height: 1.5;
-  margin: 0;
-  padding: 0;
 }
 
 .navbar {
   background-color: #1f2937;
 }
 
+.logo,
+.title {
+  color: #f9faf8;
+}
+
 .logo {
   font-size: 24px;
-  color: #f9faf8;
   font-weight: 600;
 }
 
@@ -32,7 +36,6 @@ li,
 .title {
   font-size: 48px;
   font-weight: bolder;
-  color: #f9faf8;
 }
 
 .header-button,
