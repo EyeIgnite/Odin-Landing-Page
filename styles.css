@@ -63,6 +63,10 @@ li,
   line-height: 1;
 }
 
+.subtext-container {
+  width: 400px;
+}
+
 button,
 a,
 .subtext,
@@ -72,17 +76,13 @@ a,
 }
 
 button {
-  padding: 10px 20px;
+  padding: 10px 38px;
   border-radius: .4rem;
   border: none;
   font-weight: 550;
   background-color: #3882f6;
   font-size: 16px;
   margin-top: 10px;
-}
-
-.call-button {
-  border: 1px solid white;
 }
 
 .info-header {
@@ -212,7 +212,8 @@ ul {
   margin-left: auto;
   font-weight: bold;
   font-size: 1rem;
-  padding: 0 20px;
+  padding: 0 38px;
+  border: 1px solid white;
 }
 
 .footer {
