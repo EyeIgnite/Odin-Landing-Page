@@ -21,6 +21,7 @@ a {
 ul {
   display: flex;
   gap: 25px;
+  padding-top: 10px;
 }
 
 sub {
@@ -42,9 +43,8 @@ button {
 .bleach-logo-image {
   width: 15%;
   height: auto;
-  margin-top: 5%;
-  margin-left: 60px;
-  /* background-color: transparent; */
+  margin-top: 6%;
+  margin-left: 70px;
   mix-blend-mode: multiply;
 }
 
@@ -100,7 +100,7 @@ a,
 
 .container img {
   width: 48%;
-  height: 280px;
+  height: 250px;
   border-radius: 3rem;
 }
 
