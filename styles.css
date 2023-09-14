@@ -36,7 +36,7 @@ button {
   border-radius: .4rem;
   border: none;
   font-weight: 550;
-  background-color: #3882f6;
+  background-color: crimson;
   font-size: 16px;
   margin-top: 10px;
 }
@@ -63,15 +63,13 @@ button {
   margin-right: 275px;
 }
 
-.logo,
-.title,
-.call {
-  color: #f9faf8;
+.call,
+.call-text,
+button {
+  color: black;
 }
 
-button,
 .subtext,
-.call-text,
 .copy {
   color: #e5e7eb;
 }
@@ -153,13 +151,13 @@ li,
 }
 
 .container2 img {
-  border: 2px solid #3882f6;
+  border: 2px solid crimson;
   border-radius: 10%;
   margin-bottom: 10px;
 }
 
 .image-container img {
-  height: 250px;
+  height: 350px;
 }
 
 .image-container {
@@ -197,7 +195,7 @@ li,
 }
 
 .call-container {
-  background-color: #3882f6;
+  background-color: crimson;
   width: 75%;
   border-radius: 1rem;
   padding: 40px 100px;
@@ -215,7 +213,7 @@ li,
   font-weight: bold;
   font-size: 1rem;
   padding: 0 38px;
-  border: 1px solid white;
+  border: 1px solid black;
 }
 
 .footer {
