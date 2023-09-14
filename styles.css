@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-anchor: none;
 }
 
 body {
@@ -38,11 +39,21 @@ button {
   margin-top: 10px;
 }
 
+.bleach-logo-image {
+  width: 15%;
+  height: auto;
+  margin-top: 5%;
+  margin-left: 60px;
+  /* background-color: transparent; */
+  mix-blend-mode: multiply;
+}
+
 .nav-container {
   display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-  height: 45px;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60px;
+  margin-right: 275px;
 }
 
 .logo,
@@ -85,14 +96,12 @@ a,
   flex-direction: column;
   flex-wrap: wrap;
   width: 400px;
-  padding-right: 100px;
 }
 
 .container img {
-  max-height: 300px;
   width: 48%;
-  padding-bottom: 20px;
-  margin-right: -130px;
+  height: 280px;
+  border-radius: 3rem;
 }
 
 .body {
@@ -116,6 +125,7 @@ li,
 }
 
 .image-subtext {
+  padding-top: 5px;
   padding-bottom: 120px;
 }
 
