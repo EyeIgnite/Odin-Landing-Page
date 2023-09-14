@@ -16,6 +16,7 @@ body {
 
 a {
   text-decoration: none;
+  color: crimson;
 }
 
 ul {
@@ -38,6 +39,12 @@ button {
   background-color: #3882f6;
   font-size: 16px;
   margin-top: 10px;
+}
+
+.body {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
 }
 
 .bleach-logo-image {
@@ -63,7 +70,6 @@ button {
 }
 
 button,
-a,
 .subtext,
 .call-text,
 .copy {
@@ -100,28 +106,29 @@ a,
 
 .container img {
   width: 48%;
-  height: 250px;
+  height: 300px;
   border-radius: 3rem;
 }
 
-.body {
-  background-color: #1f2937;
-  display: flex;
-  flex-direction: column;
-}
-
 li,
-.subtext,
 .image-subtext {
   font-size: 18px;
   list-style: none;
 }
 
+.subtext-container {
+  width: 500px;
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-style: italic;
+}
+
 .title {
-  font-size: 48px;
+  font-size: 58px;
   font-weight: bolder;
   padding-bottom: 10px;
-  line-height: 1;
+  line-height: .8;
+  color: crimson;
 }
 
 .image-subtext {
@@ -138,7 +145,7 @@ li,
 }
 
 .info-header {
-  font-size: 36px;
+  font-size: 42px;
   font-weight: bolder;
   color: #1f2937;
   width: 100%;
