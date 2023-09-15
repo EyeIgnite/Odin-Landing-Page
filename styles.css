@@ -267,7 +267,7 @@ button:hover {
 
 .image-container {
   position: relative;
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 
 p.sub-info {
