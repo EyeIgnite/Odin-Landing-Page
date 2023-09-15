@@ -223,3 +223,11 @@ button {
   padding: 30px;
   text-align: center;
 }
+
+a:hover {
+  color: white;
+}
+
+button:hover {
+  background-color: darkred;
+}
