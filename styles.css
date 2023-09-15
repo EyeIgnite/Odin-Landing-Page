@@ -46,7 +46,7 @@ ul {
   padding-top: 10px;
 }
 
-sub {
+sub.sub-quote {
   font-weight: bolder;
   font-size: 22px;
   margin-left: 100px;
@@ -168,6 +168,7 @@ li,
   color: #1f2937;
   width: 100%;
   text-align: center;
+  margin-bottom: -60px;
 }
 
 .container2 img {
@@ -256,7 +257,6 @@ button:hover {
 .figure img.Sirv.image-hover {
   position: absolute;
   right: 0;
-  /* object-fit: contain; */
   opacity: 0;
   transition: opacity .2s;
 }
@@ -268,5 +268,11 @@ button:hover {
 .image-container {
   position: relative;
   max-width: 100%;
-  width: 300px;
+}
+
+p.sub-info {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: -15px;
 }
