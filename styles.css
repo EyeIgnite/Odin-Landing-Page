@@ -181,7 +181,7 @@ li,
 }
 
 .image-container {
-  width: 310px;
+  width: 300px;
   display: flex;
   flex-direction: column;
 }
